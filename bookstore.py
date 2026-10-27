@@ -9,12 +9,13 @@ class Book(object):
 
     # Task 1: add a method get_title() that returns the title
 
-
     # Task 2: add a method get_price() that returns the price
 
 
     # Task 3 (teams of three only): add a method get_author() that returns the author
-
+    def get_author(self):
+        """Returns the author of the book."""
+        return self.author
 
     # Task 4: add a method __str__() that returns e.g. 'Persuasion by Jane Austen'
 
